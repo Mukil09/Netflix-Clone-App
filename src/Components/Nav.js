@@ -2,6 +2,7 @@ import React from "react";
 import "./Nav.css";
 import Select from "./Select";
 import Btnred from "./Btnred";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -11,7 +12,7 @@ function Nav() {
       </div>
       <div className="nav">
         <Select />
-        <Btnred className="res" name="Sign In" paddingtb="5" paddinglr="15" />
+      <Link to="/signin"><Btnred className="res" name="Sign In" paddingtb="5" paddinglr="15" /> </Link>
       </div>
     </div>
   );
