@@ -13,9 +13,9 @@ function Email() {
       <Btnred
         className="form-mar"
         name="Get Started >"
-        paddingtb="14"
+        paddingtb="10"
         paddinglr="14"
-        fsize="20"
+        fsize="17"
       />
     </div>
   );

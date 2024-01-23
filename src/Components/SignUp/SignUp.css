@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.SignUp {
+  display: flex;
+  flex-direction: column;
+  height: 130vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../../public/images/header-image.png);
+}
+
+.SignUp .logo {
+  width: 180px;
+  margin: 30px;
+}
+
+.SignUp .logo img {
+  width: 100%;
+}
+
+.SignUp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.SignUp .Container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+}
+
+.SignUp .Container h1 {
+  color: #fff;
+  margin: 20px;
+  text-align: left;
+}
+
+.SignUp-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.SignUp-form input,
+button {
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 13px 0;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.SignUp-form input {
+  background-color: #333;
+}
+
+.SignUp-form button {
+  background-color: #e50914;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.TermsOfService {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #555;
+  /* margin: 10px; */
+}
+
+.TermsOfService .TOS-1 {
+  display: flex;
+  align-items: center;
+}
+
+.TOS-1 h4 {
+  margin-left: 10px;
+}
+
+.New-user {
+  color: #555;
+  padding: 0px 40px;
+  font-size: 14px;
+}
+
+.New-user h3 {
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.New-user h3 span {
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.New-user h3 span:hover {
+  text-decoration: underline;
+}
+
+.New-user h4 {
+  margin-top: 5px;
+}
+
+.New-user h4 span {
+  color: #1515c0;
+  cursor: pointer;
+}

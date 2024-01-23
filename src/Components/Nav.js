@@ -12,7 +12,9 @@ function Nav() {
       </div>
       <div className="nav">
         <Select />
-      <Link to="/signin"><Btnred className="res" name="Sign In" paddingtb="5" paddinglr="15" /> </Link>
+        <Link to="/signin">
+          <Btnred className="res" name="Sign In" paddingtb="5" paddinglr="15" />{" "}
+        </Link>
       </div>
     </div>
   );
